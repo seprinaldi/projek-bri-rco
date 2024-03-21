@@ -15,30 +15,20 @@ use App\Http\Controllers\DashboardController;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-
-Route::get('/', [DashboardController::class, 'index']);
-
-Route::get('/login', [LoginController::class, 'login'])->middleware('guest')->name('login');
-
-Route::post('/login', [LoginController::class, 'auth']);
-
-Route::post('/logout', [LoginController::class, 'logout']);
-
-Route::get('/register', [LoginController::class, 'register'])->middleware('guest');
+ Route::get('/', function () {
+     return view('welcome');
+ });
 
 
 
-Route::group(['middleware' => ['cekrole:Admin,Staff']], function () {
+Route::get('/login', [LoginController::class, 'halamanlogin'])->name('login');
 
-});
+Route::post('/postlogin', [LoginController::class, 'auth']) -> name('postlogin');
 
-Route::group(['middleware' => ['cekrole:Admin,Staff,PJ']], function () {
-   
-});
+Route::post('/logout', [LoginController::class, 'logout']) -> name('logout');
 
-Route::group(['middleware' => ['cekrole:Admin,Staff,PJ,Asisten']], function () {
+Route::get('/register', [LoginController::class, 'register']);
 
+Route::group(['middleware' => ['auth']], function () {
+    Route::get('/dashboard', [DashboardController::class, 'index']) -> name('dashboard');
 });

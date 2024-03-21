@@ -15,7 +15,8 @@ class LoginController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function login()
+    
+     public function halamanlogin()
     {
         return view('login.login');
     }
@@ -25,14 +26,14 @@ class LoginController extends Controller
     public function auth(Request $request)
     {
         $credentials = $request->validate([
-            'email' => 'required|email:dns',
+            'pn' => 'required',
             'password' => 'required'
         ]);
 
         if(Auth::attempt($credentials)){
             $request->session()->regenerate();
         // Alert::success('Selamat Datang!', 'Anda berhasil login')->showConfirmButton('Ok', '#FFC107');
-        return redirect()->intended('/');
+            return redirect()->intended('/dashboard');
         }
 
         return back()->with('loginError', 'Login Gagal!');
