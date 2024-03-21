@@ -27,7 +27,9 @@ Route::post('/postlogin', [LoginController::class, 'auth']) -> name('postlogin')
 
 Route::post('/logout', [LoginController::class, 'logout']) -> name('logout');
 
-Route::get('/register', [LoginController::class, 'register']);
+Route::get('/register', [LoginController::class, 'register'])-> name('register');
+
+Route::post('/simpanregister', [LoginController::class, 'simpanregister'])-> name('simpanregister');
 
 Route::group(['middleware' => ['auth']], function () {
     Route::get('/dashboard', [DashboardController::class, 'index']) -> name('dashboard');

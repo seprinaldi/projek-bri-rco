@@ -5,8 +5,11 @@ namespace App\Http\Controllers;
 use App\Models\Login;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Carbon\Carbon;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Str;
 use RealRashid\SweetAlert\Facades\Alert;
+use App\Models\user;
 
 class LoginController extends Controller
 {
@@ -55,6 +58,24 @@ class LoginController extends Controller
     public function register()
     {
         return view('login.register');
+    }
+
+    public function simpanregister(Request $request)
+    {
+        User::create([
+            'name'=>$request->name,
+            'pn'=>$request->pn,
+            'role'=> 'user',
+            'email'=> $request->email,
+            'join_date'=> Carbon::now(),
+            'password'=> bcrypt($request -> password),
+            'remember_token'=> Str::random(60),
+        ]);
+
+        return view('welcome');
+
+
+       
     }
 
     /**
