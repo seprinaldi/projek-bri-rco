@@ -1031,12 +1031,6 @@
 								<div data-kt-menu-trigger="click" class="menu-item menu-accordion">
 									<!--begin:Menu link-->
 									<span class="menu-link">
-										<span class="menu-icon">
-											<i class="ki-duotone ki-some-files fs-1">
-												<span class="path1"></span>
-												<span class="path2"></span>
-											</i>
-										</span>
 										<span class="menu-title">Pages</span>
 										<span class="menu-arrow"></span>
 									</span>
@@ -1167,13 +1161,6 @@
 								<div data-kt-menu-trigger="click" class="menu-item menu-accordion">
 									<!--begin:Menu link-->
 									<span class="menu-link">
-										<span class="menu-icon">
-											<i class="ki-duotone ki-chart-line-star fs-1">
-												<span class="path1"></span>
-												<span class="path2"></span>
-												<span class="path3"></span>
-											</i>
-										</span>
 										<span class="menu-title">Apps</span>
 										<span class="menu-arrow"></span>
 									</span>
@@ -1450,12 +1437,6 @@
 								<div data-kt-menu-trigger="click" class="menu-item menu-accordion">
 									<!--begin:Menu link-->
 									<span class="menu-link">
-										<span class="menu-icon">
-											<i class="ki-duotone ki-rescue fs-1">
-												<span class="path1"></span>
-												<span class="path2"></span>
-											</i>
-										</span>
 										<span class="menu-title">Help</span>
 										<span class="menu-arrow"></span>
 									</span>
