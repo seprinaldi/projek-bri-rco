@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\MenuController;
+use App\Http\Controllers\UserController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\DashboardController;
 
@@ -33,4 +35,6 @@ Route::post('/simpanregister', [LoginController::class, 'simpanregister'])-> nam
 
 Route::group(['middleware' => ['auth']], function () {
     Route::get('/dashboard', [DashboardController::class, 'index']) -> name('dashboard');
+    Route::get('/menus', [MenuController::class, 'index']) -> name('menus.index');
+    Route::get('/users', [UserController::class, 'index']) -> name('users.index');
 });

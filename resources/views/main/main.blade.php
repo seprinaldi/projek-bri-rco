@@ -16,17 +16,17 @@
 		<meta property="og:url" content="https://keenthemes.com/products/saul-html-pro" />
 		<meta property="og:site_name" content="Keenthemes | Saul HTML Free" />
 		<link rel="canonical" href="https://preview.keenthemes.com/saul-html-free" />
-		<link rel="shortcut icon" href="assets/assets/media/logos/favicon.ico" />
+		<link rel="shortcut icon" href="assets/dist/assets/media/logos/favicon.ico" />
 		<!--begin::Fonts(mandatory for all pages)-->
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700" />
 		<!--end::Fonts-->
 		<!--begin::Vendor Stylesheets(used for this page only)-->
-		<link href="assets/assets/plugins/custom/fullcalendar/fullcalendar.bundle.css" rel="stylesheet" type="text/css" />
-		<link href="assets/assets/plugins/custom/datatables/datatables.bundle.css" rel="stylesheet" type="text/css" />
+		<link href="assets/dist/assets/plugins/custom/fullcalendar/fullcalendar.bundle.css" rel="stylesheet" type="text/css" />
+		<link href="assets/dist/assets/plugins/custom/datatables/datatables.bundle.css" rel="stylesheet" type="text/css" />
 		<!--end::Vendor Stylesheets-->
 		<!--begin::Global Stylesheets Bundle(mandatory for all pages)-->
-		<link href="assets/assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
-		<link href="assets/assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
+		<link href="assets/dist/assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
+		<link href="assets/dist/assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
 		<!--end::Global Stylesheets Bundle-->
 		<script>// Frame-busting to prevent site from being loaded within a frame without permission (click-jacking) if (window.top != window.self) { window.top.location.replace(window.self.location.href); }</script>
 
@@ -1565,21 +1565,7 @@
 								<!--begin::Menu separator-->
 								<div class="separator my-2"></div>
 								<!--end::Menu separator-->
-								<!--begin::Menu item-->
-								<div class="menu-item px-5">
-									<a href="../dist/account/overview.html" class="menu-link px-5">My Profile</a>
-								</div>
-								<!--end::Menu item-->
-								<!--begin::Menu item-->
-								<div class="menu-item px-5">
-									<a href="../dist/apps/projects/list.html" class="menu-link px-5">
-										<span class="menu-text">My Projects</span>
-										<span class="menu-badge">
-											<span class="badge badge-light-danger badge-circle fw-bold fs-7">3</span>
-										</span>
-									</a>
-								</div>
-								<!--end::Menu item-->
+								
 								<!--begin::Menu item-->
 								<div class="menu-item px-5" data-kt-menu-trigger="{default: 'click', lg: 'hover'}"
 									data-kt-menu-placement="left-start" data-kt-menu-offset="-15px, 0">
@@ -1605,42 +1591,17 @@
 										</div>
 										<!--end::Menu item-->
 										<!--begin::Menu item-->
-										<div class="menu-item px-3">
-											<a href="#" class="menu-link d-flex flex-stack px-5">Statements
-												<span class="ms-2 lh-0" data-bs-toggle="tooltip"
-													title="View your statements">
-													<i class="ki-duotone ki-information-5 fs-5">
-														<span class="path1"></span>
-														<span class="path2"></span>
-														<span class="path3"></span>
-													</i>
-												</span></a>
-										</div>
+										
 										<!--end::Menu item-->
 										<!--begin::Menu separator-->
 										<div class="separator my-2"></div>
 										<!--end::Menu separator-->
-										<!--begin::Menu item-->
-										<div class="menu-item px-3">
-											<div class="menu-content px-3">
-												<label
-													class="form-check form-switch form-check-custom form-check-solid">
-													<input class="form-check-input w-30px h-20px" type="checkbox"
-														value="1" checked="checked" name="notifications" />
-													<span class="form-check-label text-muted fs-7">Notifications</span>
-												</label>
-											</div>
-										</div>
-										<!--end::Menu item-->
+										
 									</div>
 									<!--end::Menu sub-->
 								</div>
 								<!--end::Menu item-->
-								<!--begin::Menu item-->
-								<div class="menu-item px-5">
-									<a href="#" class="menu-link px-5">My Statements</a>
-								</div>
-								<!--end::Menu item-->
+								
 								<!--begin::Menu separator-->
 								<div class="separator my-2"></div>
 								<!--end::Menu separator-->
@@ -1707,98 +1668,16 @@
 											</a>
 										</div>
 										<!--end::Menu item-->
-										<!--begin::Menu item-->
-										<div class="menu-item px-3 my-0">
-											<a href="#" class="menu-link px-3 py-2" data-kt-element="mode"
-												data-kt-value="system">
-												<span class="menu-icon" data-kt-element="icon">
-													<i class="ki-duotone ki-screen fs-2">
-														<span class="path1"></span>
-														<span class="path2"></span>
-														<span class="path3"></span>
-														<span class="path4"></span>
-													</i>
-												</span>
-												<span class="menu-title">System</span>
-											</a>
-										</div>
-										<!--end::Menu item-->
 									</div>
 									<!--end::Menu-->
 								</div>
 								<!--end::Menu item-->
 								<!--begin::Menu item-->
-								<div class="menu-item px-5" data-kt-menu-trigger="{default: 'click', lg: 'hover'}"
-									data-kt-menu-placement="left-start" data-kt-menu-offset="-15px, 0">
-									<a href="#" class="menu-link px-5">
-										<span class="menu-title position-relative">Language
-											<span
-												class="fs-8 rounded bg-light px-3 py-2 position-absolute translate-middle-y top-50 end-0">English
-												<img class="w-15px h-15px rounded-1 ms-2"
-													src="assets/media/flags/united-states.svg" alt="" /></span></span>
-									</a>
-									<!--begin::Menu sub-->
-									<div class="menu-sub menu-sub-dropdown w-175px py-4">
-										<!--begin::Menu item-->
-										<div class="menu-item px-3">
-											<a href="../dist/account/settings.html"
-												class="menu-link d-flex px-5 active">
-												<span class="symbol symbol-20px me-4">
-													<img class="rounded-1" src="assets/media/flags/united-states.svg"
-														alt="" />
-												</span>English</a>
-										</div>
-										<!--end::Menu item-->
-										<!--begin::Menu item-->
-										<div class="menu-item px-3">
-											<a href="../dist/account/settings.html" class="menu-link d-flex px-5">
-												<span class="symbol symbol-20px me-4">
-													<img class="rounded-1" src="assets/media/flags/spain.svg" alt="" />
-												</span>Spanish</a>
-										</div>
-										<!--end::Menu item-->
-										<!--begin::Menu item-->
-										<div class="menu-item px-3">
-											<a href="../dist/account/settings.html" class="menu-link d-flex px-5">
-												<span class="symbol symbol-20px me-4">
-													<img class="rounded-1" src="assets/media/flags/germany.svg"
-														alt="" />
-												</span>German</a>
-										</div>
-										<!--end::Menu item-->
-										<!--begin::Menu item-->
-										<div class="menu-item px-3">
-											<a href="../dist/account/settings.html" class="menu-link d-flex px-5">
-												<span class="symbol symbol-20px me-4">
-													<img class="rounded-1" src="assets/media/flags/japan.svg" alt="" />
-												</span>Japanese</a>
-										</div>
-										<!--end::Menu item-->
-										<!--begin::Menu item-->
-										<div class="menu-item px-3">
-											<a href="../dist/account/settings.html" class="menu-link d-flex px-5">
-												<span class="symbol symbol-20px me-4">
-													<img class="rounded-1" src="assets/media/flags/france.svg" alt="" />
-												</span>French</a>
-										</div>
-										<!--end::Menu item-->
-									</div>
-									<!--end::Menu sub-->
-								</div>
-								<!--end::Menu item-->
-								<!--begin::Menu item-->
-								<div class="menu-item px-5 my-1">
-									<a href="../dist/account/settings.html" class="menu-link px-5">Account Settings</a>
-								</div>
-								<!--end::Menu item-->
-								<!--begin::Menu item-->
-								<div class="menu-item  px-5">
 								<form action="/logout" method="post">
 									@csrf
-									<button class="w-100 px-2 py-1 btn btn-outline-light text-danger rounded-1"
+									<button class="w-100 p-2 btn btn-outline-light text-danger rounded-1"
 													type="submit">Logout</button>
 						         </form>
-								</div>
 								<!--end::Menu item-->
 							</div>
 							<!--end::User account menu-->
@@ -1874,11 +1753,11 @@
 									</span>
 									<!--end:Menu link-->
 									<!--begin:Menu sub-->
-									<div class="menu-sub menu-sub-accordion">
+									<div class="menu-sub menu-sub-accordion {{ Request::is('dashboard*') ? 'show' : '' }}">
 										<!--begin:Menu item-->
 										<div class="menu-item">
 											<!--begin:Menu link-->
-											<a class="menu-link" href="../dist/index.html">
+											<a class="menu-link {{ Request::is('dashboard*') ? 'active' : '' }}" href="{{ route ('dashboard') }}">
 												<span class="menu-bullet">
 													<span class="bullet bullet-dot"></span>
 												</span>
@@ -1887,32 +1766,104 @@
 											<!--end:Menu link-->
 										</div>
 										<!--end:Menu item-->
+										
+									</div>
+									<div class="menu-sub menu-sub-accordion">
 										<!--begin:Menu item-->
-										<div class="menu-item">
+										<div data-kt-menu-trigger="click" class="menu-item menu-accordion {{ Request::is('users*') ? 'show' : '' }}">
 											<!--begin:Menu link-->
-											<a class="menu-link" href="#" data-kt-page="pro">
+											<span class="menu-link">
 												<span class="menu-bullet">
 													<span class="bullet bullet-dot"></span>
 												</span>
-												<span class="menu-title">eCommerce
-												</span>
-											</a>
+												<span class="menu-title">User Management</span>
+												<span class="menu-arrow"></span>
+											</span>
 											<!--end:Menu link-->
+											<!--begin:Menu sub-->
+											<div class="menu-sub menu-sub-accordion">
+												<!--begin:Menu item-->
+												<div class="menu-item">
+													<!--begin:Menu link-->
+													<a class="menu-link {{ Request::is('users*') ? 'active' : '' }}" href="{{route('users.index')}}">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+														<span class="menu-title">Users</span>
+													</a>
+													<!--end:Menu link-->
+												</div>
+												<!--end:Menu item-->
+											</div>
+											<!--end:Menu sub-->
+											<!--begin:Menu sub-->
+											<div class="menu-sub menu-sub-accordion">
+												<!--begin:Menu item-->
+												<div class="menu-item">
+													<!--begin:Menu link-->
+													<a class="menu-link" href="../dist/pages/user-profile/overview.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+														<span class="menu-title">Add User</span>
+													</a>
+													<!--end:Menu link-->
+												</div>
+												<!--end:Menu item-->
+											</div>
+											<!--end:Menu sub-->
 										</div>
 										<!--end:Menu item-->
+									</div>
+									
+									<div class="menu-sub menu-sub-accordion">
 										<!--begin:Menu item-->
-										<div class="menu-item">
+										<div data-kt-menu-trigger="click" class="menu-item menu-accordion {{ Request::is('menus*') ? 'show' : '' }}">
 											<!--begin:Menu link-->
-											<a class="menu-link" href="#" data-kt-page="pro">
+											<span class="menu-link">
 												<span class="menu-bullet">
 													<span class="bullet bullet-dot"></span>
 												</span>
-												<span class="menu-title">Projects
-												</span>
-											</a>
+												<span class="menu-title">Menu Management</span>
+												<span class="menu-arrow"></span>
+											</span>
 											<!--end:Menu link-->
+											<!--begin:Menu sub-->
+											<div class="menu-sub menu-sub-accordion">
+												<!--begin:Menu item-->
+												<div class="menu-item">
+													<!--begin:Menu link-->
+													<a class="menu-link {{ Request::is('menus*') ? 'active' : '' }}" href="{{route('menus.index')}}">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+														<span class="menu-title">Menus</span>
+													</a>
+													<!--end:Menu link-->
+												</div>
+												<!--end:Menu item-->
+											</div>
+											<!--end:Menu sub-->
+											<!--begin:Menu sub-->
+											<div class="menu-sub menu-sub-accordion">
+												<!--begin:Menu item-->
+												<div class="menu-item">
+													<!--begin:Menu link-->
+													<a class="menu-link" href="../dist/pages/user-profile/overview.html">
+														<span class="menu-bullet">
+															<span class="bullet bullet-dot"></span>
+														</span>
+														<span class="menu-title">Add Menu</span>
+													</a>
+													<!--end:Menu link-->
+												</div>
+												<!--end:Menu item-->
+											</div>
+											<!--end:Menu sub-->
 										</div>
 										<!--end:Menu item-->
+										
+										
 									</div>
 									<!--end:Menu sub-->
 								</div>
@@ -1921,7 +1872,7 @@
 								<div data-kt-menu-trigger="click" class="menu-item menu-accordion">
 									<!--begin:Menu link-->
 									<span class="menu-link">
-										<span class="menu-title">Users Management</span>
+										<span class="menu-title">Menus</span>
 										<span class="menu-arrow"></span>
 									</span>
 									<!--end:Menu link-->
@@ -1930,11 +1881,11 @@
 										<!--begin:Menu item-->
 										<div class="menu-item">
 											<!--begin:Menu link-->
-											<a class="menu-link" href="#" title="Check out over 200 in-house components" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+											<a class="menu-link" href="{{route('menus.index')}}" title="Check out over 200 in-house components" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
 												<span class="menu-bullet">
 													<span class="bullet bullet-dot"></span>
 												</span>
-												<span class="menu-title">Users</span>
+												<span class="menu-title">Sub Menus</span>
 											</a>
 											<!--end:Menu link-->
 										</div>
@@ -1943,70 +1894,7 @@
 										<!--end:Menu item-->
 									</div>
 									<!--end:Menu sub-->
-									<!--begin:Menu sub-->
-									<div class="menu-sub menu-sub-accordion">
-										<!--begin:Menu item-->
-										<div class="menu-item">
-											<!--begin:Menu link-->
-											<a class="menu-link" href="#" target="_blank" title="Check out over 200 in-house components" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
-												<span class="menu-bullet">
-													<span class="bullet bullet-dot"></span>
-												</span>
-												<span class="menu-title">Add Users</span>
-											</a>
-											<!--end:Menu link-->
-										</div>
-										<!--end:Menu item-->
-										
-										<!--end:Menu item-->
-									</div>
-									<!--end:Menu sub-->
-								</div>
-								<!--end:Menu item-->
-								<!--begin:Menu item-->
-								<div data-kt-menu-trigger="click" class="menu-item menu-accordion {{ Request::is('menus*') ? 'show' : '' }}">
-									<!--begin:Menu link-->
-									<span class="menu-link">
-										<span class="menu-title">Menus Management</span>
-										<span class="menu-arrow"></span>
-									</span>
-									<!--end:Menu link-->
-									<!--begin:Menu sub-->
-									<div class="menu-sub menu-sub-accordion">
-										<!--begin:Menu item-->
-										<div class="menu-item">
-											<!--begin:Menu link-->
-											<a class="menu-link {{ Request::is('menus*') ? 'active' : '' }}" href="#" title="Check out over 200 in-house components" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
-												<span class="menu-bullet">
-													<span class="bullet bullet-dot"></span>
-												</span>
-												<span class="menu-title">Menus</span>
-											</a>
-											<!--end:Menu link-->
-										</div>
-										<!--end:Menu item-->
-										
-										<!--end:Menu item-->
-									</div>
-									<!--end:Menu sub-->
-									<!--begin:Menu sub-->
-									<div class="menu-sub menu-sub-accordion">
-										<!--begin:Menu item-->
-										<div class="menu-item">
-											<!--begin:Menu link-->
-											<a class="menu-link" href="#" target="_blank" title="Check out over 200 in-house components" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
-												<span class="menu-bullet">
-													<span class="bullet bullet-dot"></span>
-												</span>
-												<span class="menu-title">Add Menus</span>
-											</a>
-											<!--end:Menu link-->
-										</div>
-										<!--end:Menu item-->
-										
-										<!--end:Menu item-->
-									</div>
-									<!--end:Menu sub-->
+									
 								</div>
 								<!--end:Menu item-->
 								<!--begin:Menu item-->
@@ -5080,62 +4968,62 @@
 		<!--end::Modal - Invite Friend-->
 		<!--end::Modals-->
 		<!--begin::Javascript-->
-		<script>var hostUrl = "assets/assets/";</script>
+		<script>var hostUrl = "assets/dist/assets/";</script>
 		<!--begin::Global Javascript Bundle(mandatory for all pages)-->
-		<script src="assets/assets/plugins/global/plugins.bundle.js"></script>
-		<script src="assets/assets/js/scripts.bundle.js"></script>
+		<script src="assets/dist/assets/plugins/global/plugins.bundle.js"></script>
+		<script src="assets/dist/assets/js/scripts.bundle.js"></script>
 		<!--end::Global Javascript Bundle-->
 		<!--begin::Vendors Javascript(used for this page only)-->
-		<script src="assets/assets/plugins/custom/fullcalendar/fullcalendar.bundle.js"></script>
+		<script src="assets/dist/assets/plugins/custom/fullcalendar/fullcalendar.bundle.js"></script>
 		
-		<script src="assets/assets/plugins/custom/datatables/datatables.bundle.js"></script>
+		<script src="assets/dist/assets/plugins/custom/datatables/datatables.bundle.js"></script>
 		<!--end::Vendors Javascript-->
 		<!--begin::Custom Javascript(used for this page only)-->
-		<script src="assets/assets/js/widgets.bundle.js"></script>
-		<script src="assets/assets/js/custom/widgets.js"></script>
-		<script src="assets/assets/js/custom/apps/chat/chat.js"></script>
-		<script src="assets/assets/js/custom/utilities/modals/upgrade-plan.js"></script>
-		<script src="assets/assets/js/custom/utilities/modals/create-account.js"></script>
-		<script src="assets/assets/js/custom/utilities/modals/create-app.js"></script>
-		<script src="assets/assets/js/custom/utilities/modals/users-search.js"></script>
+		<script src="assets/dist/assets/js/widgets.bundle.js"></script>
+		<script src="assets/dist/assets/js/custom/widgets.js"></script>
+		<script src="assets/dist/assets/js/custom/apps/chat/chat.js"></script>
+		<script src="assets/dist/assets/js/custom/utilities/modals/upgrade-plan.js"></script>
+		<script src="assets/dist/assets/js/custom/utilities/modals/create-account.js"></script>
+		<script src="assets/dist/assets/js/custom/utilities/modals/create-app.js"></script>
+		<script src="assets/dist/assets/js/custom/utilities/modals/users-search.js"></script>
 		<!--end::Custom Javascript-->
 		<!--end::Javascript-->
 
 		<!--end::Modal - Invite Friend-->
 	<!--end::Modals-->
 	<!--begin::Javascript-->
-	<script>var hostUrl = "assets/assets/";</script>
+	<script>var hostUrl = "assets/dist/assets/";</script>
 	<!--begin::Global Javascript Bundle(mandatory for all pages)-->
-	<script src="assets/assets/plugins/global/plugins.bundle.js"></script>
-	<script src="assets/assets/js/scripts.bundle.js"></script>
+	<script src="assets/dist/assets/plugins/global/plugins.bundle.js"></script>
+	<script src="assets/dist/assets/js/scripts.bundle.js"></script>
 	<!--end::Global Javascript Bundle-->
 	<!--begin::Vendors Javascript(used for this page only)-->
-	<script src="assets/assets/plugins/custom/datatables/datatables.bundle.js"></script>
+	<script src="assets/dist/assets/plugins/custom/datatables/datatables.bundle.js"></script>
 	<!--end::Vendors Javascript-->
 	<!--begin::Custom Javascript(used for this page only)-->
-	<script src="assets/assets/js/custom/apps/ecommerce/catalog/products.js"></script>
-	<script src="assets/assets/js/widgets.bundle.js"></script>
-	<script src="assets/assets/js/custom/widgets.js"></script>
-	<script src="assets/assets/js/custom/apps/chat/chat.js"></script>
-	<script src="assets/assets/js/custom/utilities/modals/upgrade-plan.js"></script>
-	<script src="assets/assets/js/custom/utilities/modals/create-account.js"></script>
-	<script src="assets/assets/js/custom/utilities/modals/create-app.js"></script>
-	<script src="assets/assets/js/custom/utilities/modals/users-search.js"></script>
+	<script src="assets/dist/assets/js/custom/apps/ecommerce/catalog/products.js"></script>
+	<script src="assets/dist/assets/js/widgets.bundle.js"></script>
+	<script src="assets/dist/assets/js/custom/widgets.js"></script>
+	<script src="assets/dist/assets/js/custom/apps/chat/chat.js"></script>
+	<script src="assets/dist/assets/js/custom/utilities/modals/upgrade-plan.js"></script>
+	<script src="assets/dist/assets/js/custom/utilities/modals/create-account.js"></script>
+	<script src="assets/dist/assets/js/custom/utilities/modals/create-app.js"></script>
+	<script src="assets/dist/assets/js/custom/utilities/modals/users-search.js"></script>
 	<!--end::Custom Javascript-->
 	<!--end::Javascript-->
 
 	<!-- table with export -->
 
-	<script src="assets/assets/js/custom/apps/user-management/users/list/table.js"></script>
-		<script src="assets/assets/js/custom/apps/user-management/users/list/export-users.js"></script>
-		<script src="assets/assets/js/custom/apps/user-management/users/list/add.js"></script>
-		<script src="assets/assets/js/widgets.bundle.js"></script>
-		<script src="assets/assets/js/custom/widgets.js"></script>
-		<script src="assets/assets/js/custom/apps/chat/chat.js"></script>
-		<script src="assets/assets/js/custom/utilities/modals/upgrade-plan.js"></script>
-		<script src="assets/assets/js/custom/utilities/modals/create-account.js"></script>
-		<script src="assets/assets/js/custom/utilities/modals/create-app.js"></script>
-		<script src="assets/assets/js/custom/utilities/modals/users-search.js"></script>
+	<script src="assets/dist/assets/js/custom/apps/user-management/users/list/table.js"></script>
+		<script src="assets/dist/assets/js/custom/apps/user-management/users/list/export-users.js"></script>
+		<script src="assets/dist/assets/js/custom/apps/user-management/users/list/add.js"></script>
+		<script src="assets/dist/assets/js/widgets.bundle.js"></script>
+		<script src="assets/dist/assets/js/custom/widgets.js"></script>
+		<script src="assets/dist/assets/js/custom/apps/chat/chat.js"></script>
+		<script src="assets/dist/assets/js/custom/utilities/modals/upgrade-plan.js"></script>
+		<script src="assets/dist/assets/js/custom/utilities/modals/create-account.js"></script>
+		<script src="assets/dist/assets/js/custom/utilities/modals/create-app.js"></script>
+		<script src="assets/dist/assets/js/custom/utilities/modals/users-search.js"></script>
 
 	</body>
 	<!--end::Body-->
