@@ -1737,7 +1737,7 @@
 							<!--begin::Sidebar menu-->
 							<div id="#kt_app_sidebar_menu" data-kt-menu="true" data-kt-menu-expand="false" class="flex-column-fluid menu menu-sub-indention menu-column menu-rounded menu-active-bg mb-7">
 								<!--begin:Menu item-->
-								<div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+								<div data-kt-menu-trigger="click" class="menu-item here menu-accordion {{ Request::is('dashboard*') ? 'show' : '' }} {{ Request::is('menus*') ? 'show' : '' }} {{ Request::is('users*') ? 'show' : '' }}">
 									<!--begin:Menu link-->
 									<span class="menu-link">
 										<span class="menu-icon">
@@ -1748,7 +1748,7 @@
 												<span class="path4"></span>
 											</i>
 										</span>
-										<span class="menu-title">Dashboards</span>
+										<span class="menu-title ">Dashboards</span>
 										<span class="menu-arrow"></span>
 									</span>
 									<!--end:Menu link-->

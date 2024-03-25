@@ -15,20 +15,12 @@ class CreateMenusTable extends Migration
     {
         Schema::create('menus', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('pn');
-            $table->string('user_role');
-            $table->string('menu_name');
-            $table->string('menu_sub')->nullable();
-            $table->string('url_sub')->nullable();
-            $table->string('menu_sub2')->nullable();
-            $table->string('url_sub2')->nullable();
-            $table->string('menu_sub3')->nullable();
-            $table->string('url_sub3')->nullable();
-            $table->string('menu_sub4')->nullable();
-            $table->string('url_sub4')->nullable();
-            $table->string('menu_sub5')->nullable();
-            $table->string('url_sub5')->nullable();
+            $table->string('name');
+            $table->string('url');
+            $table->unsignedBigInteger('parent_id')->nullable();
             $table->timestamps();
+
+            $table->foreign('parent_id')->references('id')->on('menus')->onDelete('cascade');
         });
     }
 

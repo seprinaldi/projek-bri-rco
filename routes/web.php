@@ -17,13 +17,13 @@ use App\Http\Controllers\DashboardController;
 |
 */
 
- Route::get('/', function () {
-     return view('welcome');
- });
+//  Route::get('/', function () {
+//      return view('welcome');
+//  });
 
 
 
-Route::get('/login', [LoginController::class, 'halamanlogin'])->name('login');
+Route::get('/', [LoginController::class, 'halamanlogin'])->name('login');
 
 Route::post('/postlogin', [LoginController::class, 'auth']) -> name('postlogin');
 
